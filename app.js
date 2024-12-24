@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         waitingForSecondOperand: false,
         operator: null,
     };
-    
+
 
     function inputDigit(digit) {
         
@@ -78,6 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     //initial update upon entry
     updateDisplay();
+    console.log('updated');
 
     const keys = document.querySelector('.calculator-keys');
     keys.addEventListener('click', (event) => {
