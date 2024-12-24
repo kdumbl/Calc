@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         waitingForSecondOperand: false,
         operator: null,
     };
+    
 
     function inputDigit(digit) {
         
